@@ -44,14 +44,13 @@ class LiteSocialButtons
 
 	private function getSocialUrl($service) {
 		global $post;
-		$text = urlencode($post->post_title);
+		$text = urlencode("A great post: ".$post->post_title);
 		$escaped_url = urlencode(get_permalink());
-		$twitter_user = "spoonwiz";
 		$image = has_post_thumbnail( $post->ID ) ? wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ) : null;
 
 		switch ($service) {
 			case "twitter" :
-				$api_link = 'https://twitter.com/intent/tweet?source=webclient&amp;original_referer='.$escaped_url.'&amp;text='.$text.'&amp;url='.$escaped_url.$twitter_user;
+				$api_link = 'https://twitter.com/intent/tweet?source=webclient&amp;original_referer='.$escaped_url.'&amp;text='.$text.'&amp;url='.$escaped_url;
 				break;
 
 			case "facebook" :
