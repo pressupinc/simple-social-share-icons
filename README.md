@@ -6,4 +6,4 @@ This is a light-weight, high-DPI-ready, icon-font-utilizing, rudimentary WordPre
 
 ## License
 
-The plugin is [MIT licensed](http://opensource.org/licenses/MIT), though the [Entypo pictogram font](www.entypo.com) by Daniel Bruce is under the [SIL Open Font License](http://opensource.org/licenses/OFL-1.1). Both are considered GPL-compatible by the FSF.
+The plugin is [MIT licensed](http://opensource.org/licenses/MIT), though the [Entypo pictogram font](http://www.entypo.com) by Daniel Bruce is under the [SIL Open Font License](http://opensource.org/licenses/OFL-1.1). Both are considered GPL-compatible by the FSF.
